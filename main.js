@@ -14,7 +14,7 @@ function run(event) {
     cep = cep.trim();
 
     axios
-    .get(`http://viacep.com.br/ws/${cep}/json/`)
+    .get(`https://viacep.com.br/ws/${cep}/json/`)
     .then((response) => {
         if (response.data.erro) {
            throw new Error('CEP inválido')
