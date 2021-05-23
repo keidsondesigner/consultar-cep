@@ -16,6 +16,10 @@ function run(event) {
     axios
     .get(`http://viacep.com.br/ws/${cep}/json/`)
     .then((response) => {
+        if (response.data.erro) {
+           throw new Error('CEP inválido')
+
+        }
         content.innerHTML = '';
         createLine(response.data.logradouro);
         createLine(`${response.data.uf}/${response.data.localidade}`);
