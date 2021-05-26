@@ -3,7 +3,7 @@
 
 # 📱 Consultar-cep.
 > Resolução de desafio no Bootcamp Cataline.io  <br>
-> Esse repositório tem como objetivo principal de apresentar meus estudos e aplicar em projetos pessoias.
+> Esse repositório tem como objetivo principal de apresentar meus estudos e aplicar em projetos pessoais.
 
 ## ☕ Tecnologias Usadas
 
